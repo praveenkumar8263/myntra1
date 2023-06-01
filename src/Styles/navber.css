@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.navber
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px;
+}
+.logo
+{
+    /* margin-left: -110px; */
+}
+.searchbar input
+{
+    width: 500px;
+    height: 35px;
+    border: none;
+    background: #f2f2f2;
+    font-size: 15px;
+    color: rgb(124, 124, 124);
+    /* margin-right: -200px; */
+    padding-left: 20px;
+    
+}
+.searchbar input:focus
+{
+    outline: none;
+    /* border: 2px solid rgb(246, 241, 241); */
+    border: 1.5px solid rgb(247, 105, 197);
+    background-color: white;
+}
+.navlist
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.userOptions
+{
+    /* margin-right: -100px; */
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.profile
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.profile p
+{
+    font-size: 12px;
+    margin-top: -3px;
+    color: black;
+    padding-top: 3px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.navlist ul{
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlist ul li
+{
+    list-style: none;
+}
+.navber ul li a
+{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(35, 35, 35);
+}
+

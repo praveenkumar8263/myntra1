@@ -1,0 +1,14 @@
+.bannerImg{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #f2f2f2; */
+    background:linear-gradient( 180deg, #f2f2f3,white);
+}
+.bannerImg img
+{
+    width: 1250px;
+    height: 420px;
+    cursor: pointer;
+}
